@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatlite",
+  "version": "1.0.0",
+  "name": "CheatLite",
+  "description": "WaterCleaner i LeverSwap z menu ustawien.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["example.cheatlite.CheatLiteClient", "example.cheatlite.WaterCleaner", "example.cheatlite.LeverSwap"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
